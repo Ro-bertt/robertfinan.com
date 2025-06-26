@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robert Finan | Philosophy</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      color: #111;
+      background: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #f5f5f5;
+    }
+    header h1 {
+      margin: 0.2em 0;
+      font-weight: 700;
+    }
+    header p {
+      color: #444;
+      margin: 0;
+    }
+    nav {
+      margin: 1rem 0;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #004225;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner-container {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+      background-image: url('c:\\Users\\User\\Pictures\\DSC03157.JPG');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .banner-image {
+      display: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin-top: 3rem;
+    }
+    .section-title {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.5rem;
+      color: #004225;
+    }
+    .about-flex {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+    .about-text {
+      flex: 2;
+    }
+    .about-image {
+      flex: 1;
+    }
+    .about-image img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .cv-preview {
+      text-align: center;
+    }
+    .cv-preview iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      border: 1px solid #ccc;
+    }
+    .pub-grid {
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      gap: 1.5rem;
+      align-items: start;
+      margin-top: 1.5rem;
+    }
+    .pub-item img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+    .pub-details {
+      font-size: 1rem;
+    }
+    .pub-title {
+      font-style: italic;
+      color: #004225;
+      margin-bottom: 0.2rem;
+    }
+    .pub-meta {
+      color: #555;
+      font-size: 0.9em;
+    }
+    .pub-meta a {
+      color: #004225;
+      text-decoration: underline;
+      word-break: break-word;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f5f5f5;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 3rem;
+    }
+    a:link {
+      color: #004225;
+    }
+    a:visited {
+      color: #2e6f4e;
+    }
+    a:hover {
+      color: #66bb88;
+    }
+    a:active {
+      color: #66bb88;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Robert <span style="color: #004225;">Finan</span></h1>
+    <p>Philosophy | Undergraduate Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#cv">CV</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="banner-container">
+    <img src="c:\Users\User\Pictures\DSC03157.JPG" alt="Banner image" class="banner-image">
+  </div>
+
+  <div class="container">
+    <section id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-flex">
+        <div class="about-text">
+          <p>
+            I am a philosophy student in <a href="https://www.tcd.ie/" target="_blank" rel="noopener">Trinity College Dublin</a>. My primary focuses are logic, philosophy of mathematics, metaphysics, and Plato. Having begun my undergradute degree studying Mathematics & Philosophy—majoring in Philosophy—I intend to further study and teach Philosophy.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="c:\Users\User\Downloads\Tractatus-Eye.png" alt="5.6331">
+        </div>
+      </div>
+    </section>
+
+    <section id="cv">
+      <h2 class="section-title">Curriculum Vitae</h2>
+      <div class="cv-preview">
+        <iframe src="c:\Users\User\Downloads\Robert Finan—Academic CV.pdf"></iframe>
+        <p><a href="c:\Users\User\Downloads\Robert Finan—Academic CV.pdf" target="_blank">Download CV</a></p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2 class="section-title">Publications</h2>
+
+      <div class="pub-grid">
+        <div class="pub-item">
+          <img src="c:\Users\User\Desktop\TSPR_PHOTO.PNG" alt="TSPR Launch Event">
+        </div>
+        <div class="pub-details">
+          <div class="pub-title">"Reassessing Cantorian Cardinality: Conceptual and Pragmatic Objections to ‘Transfinite Numbers’"</div>
+          <div class="pub-meta">Trinity Student Philosophical Review, 2025. <br><br>
+            <a href="https://www.tcd.ie/media/tcd/philosophy/pdfs/Vol.-IIII---Trinity-Student-Philosophical-Review_1.pdf" target="_blank">Read here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-grid">
+        <div class="pub-item">
+          <img src="c:\Users\User\Downloads\The Good is Not a Form_ Metaphysical Continuity in Plato, Plotinus and Augustine - Anonymous.png" alt="Plato's Metaphysical Hierarchy">
+        </div>
+        <div class="pub-details">
+          <div class="pub-title">"The Good is Not a Form: Metaphysical Continuity in Plato, Plotinus and Augustine"</div>
+          <div class="pub-meta">Global Undergraduate Awards Library, forthcoming.<br><br>
+            <a href="c:\Users\User\Downloads\The Good is Not a Form_ Metaphysical Continuity in Plato, Plotinus and Augustine - GUA.pdf" target="_blank">Read here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-grid">
+        <div class="pub-item">
+          <img src="c:\Users\User\Downloads\image-a.jpg" alt="Traditional Square of Opposition">
+        </div>
+        <div class="pub-details">
+          <div class="pub-title">"The Misguided Debate Over Existential Import: Ambiguity and the Categorical Forms"</div>
+          <div class="pub-meta">Global Undergraduate Awards Library, forthcoming.<br><br>
+            <a href="c:\Users\User\Downloads\The Misguided Debate Over Existential Import_ Ambiguity and the Categorical Forms - GUA.pdf" target="_blank">Read here</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-grid">
+        <div class="pub-item">
+          <img src="c:\Users\User\Downloads\655eb080-a4c4-401d-8025-27cbfb501029..jpg" alt="Aristotle with a Bust of Homer">
+        </div>
+        <div class="pub-details">
+          <div class="pub-title">"Must Evil Be Rendered Productive? Evaluating Ricœur’s Response to the Problem of Evil"</div>
+          <div class="pub-meta">Global Undergraduate Awards Library, forthcoming.<br><br>
+            <a href="c:\Users\User\Downloads\Must Evil Be Rendered Productive_ Evaluating Ricœur’s Response to the Problem of Evil - GUA.pdf" target="_blank">Read here</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>Email: <a href="mailto:rfinan@tcd.ie">rfinan@tcd.ie</a></p>
+      <p>Phone: <a href="tel:+353892578392">+353 89 257 8392</a></p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Robert Finan. Built with HTML & CSS.
+  </footer>
+</body>
+</html>

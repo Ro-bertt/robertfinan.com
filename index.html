@@ -39,14 +39,20 @@
       text-decoration: underline;
     }
     .banner-container {
-      position: relative;
-      height: 400px;
-      overflow: hidden;
-      background-image: url(assets/DSC03157.JPG);
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-image: url(assets/DSC03157.JPG);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@supports (-webkit-touch-callout: none) {
+  .banner-container {
+    background-attachment: scroll;
+  }
+}
     .banner-image {
       display: none;
     }
